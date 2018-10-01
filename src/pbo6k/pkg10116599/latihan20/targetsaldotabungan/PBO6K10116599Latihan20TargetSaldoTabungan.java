@@ -21,6 +21,17 @@ public class PBO6K10116599Latihan20TargetSaldoTabungan {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        
+        // Variabel
+        float saldoAwal;
+        saldoAwal=3500000;
+        double bunga= 0.8;
+        float saldoTarget=6000000;
+        
+        for (int i = 0; i < 6; i++) {
+                    System.out.println("Saldo di bulan ke-" +(i+1)+ " Rp " +(saldoAwal+(saldoAwal*bunga)));
+        
     }
-    
+    }   
 }
